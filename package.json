@@ -1,11 +1,10 @@
 {
   "name": "contactbook-backend",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "script": {
-"start": "nodemon server.js"
-},
+    "start": "nodemon server.js"
+  },
   "author": "Quoc Khai",
   "license": "ISC",
   "dependencies": {
@@ -17,5 +16,9 @@
     "eslint-config-prettier": "^9.1.0",
     "nodemon": "^3.1.0",
     "prettier": "^3.2.5"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "description": ""
 }
